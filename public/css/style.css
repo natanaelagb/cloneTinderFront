@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(251, 245, 245);
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6%;
+    height: 50px;
+    align-items: center;
+}
+.navbar div:nth-child(2){
+    color: rgb(253, 124, 135);
+}
+.nav-item{
+    font-size: 1.6rem;
+    color: lightgrey;
+}
+
+.content{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-photo{
+    background-image: url("../images/natan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2%;
+    display: flex;
+    align-items: flex-end;
+    width: 98vw;
+    height: 85vh;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    flex: auto;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.8rem;
+    height: 55px;
+    width: 55px;
+    box-shadow: 0px 4px 3px 0px rgba(105, 101, 101, 0.226);
+}
+
+.actions div:nth-child(1){
+    color: rgb(248, 89, 50);
+    gran
+}
+
+.actions div:nth-child(2){
+    width: 48px;
+    height: 48px;
+    font-size: 1.4rem;
+    margin: 0 2rem;
+    color: rgb(0, 217, 255);
+    
+}
+
+.actions div:nth-child(3){
+    color: rgb(0, 255, 200);
+}
